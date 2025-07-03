@@ -13,9 +13,9 @@ Application of new SQL skills to analyze historical credit card transactions and
 Accomplish three main tasks:
 
 1. [Data Modeling](#Data-Modeling):
-Define a database model to store the credit card transactions data and create a new PostgreSQL database using your model.
+Define a database model to store the credit card transactions data and create a new PostgreSQL database using model.
 
-2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate your database from the CSV files provided.
+2. [Data Engineering](#Data-Engineering): Create a database schema on PostgreSQL and populate database from the CSV files provided.
 
 3. [Data Analysis](#Data-Analysis): Analyze the data to identify possible fraudulent transactions.
 
@@ -43,20 +43,20 @@ Create an entity relationship diagram (ERD) by inspecting the provided CSV files
 
 **Note:** For the `credit_card` table, the `card` column should be a VARCHAR(20) datatype rather than an INT.
 
-Tool used to develop ERD [Quick Database Diagrams](https://app.quickdatabasediagrams.com/#/) to create your model.
+Tool used to develop ERD [Quick Database Diagrams](https://app.quickdatabasediagrams.com/#/) to create model.
 
 ![QuickDBD-export](Images/QuickDBD-export.png)
 
 ### Data Engineering
 
-Using your database model as a blueprint, create a database schema for each of your tables and relationships. Specify data types, primary keys, foreign keys, and any other constraints you defined.
+Using database model as a blueprint, create a database schema for each of tables and relationships. Specify data types, primary keys, foreign keys, and any other constraints defined.
 
 After creating the database schema, import the data from the corresponding CSV files.
 
 
 ### Data Analysis
 
-Now that your data is prepared within the database, it's finally time to identify fraudulent transactions using SQL and Pandas DataFrames.
+Now that data is prepared within the database, it's finally time to identify fraudulent transactions using SQL and Pandas DataFrames.
 
 Top 100 highest transactions during early hours i.e. 7:00 to 9:00 AM
 

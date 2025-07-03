@@ -78,7 +78,7 @@ INSERT INTO credit_card VALUES
     (30142966699187, 24),
     (3582198969197591, 24),
     (4319653513507, 25),
-    (372414832802279, 25);
+    (372414832802270, 25);
 
 INSERT INTO merchant_category VALUES
     (1, 'restaurant'),
